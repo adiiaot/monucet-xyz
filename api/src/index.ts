@@ -1,5 +1,7 @@
 import { Elysia } from 'elysia'
 
-const app = new Elysia().get('/', () => 'Gmonad!').listen(3000)
+const api = new Elysia().get('/', () => 'Gmonad!').listen(3000)
 
-console.log(`🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`)
+console.log(`🦊 Elysia is running at ${api.server?.hostname}:${api.server?.port}`)
+
+export type Api = typeof api
