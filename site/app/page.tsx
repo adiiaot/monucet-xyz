@@ -98,7 +98,7 @@ export default function Home() {
         <div className='flex flex-col text-white/40 text-center '>
           <p>1% = 10 MON</p>
           <p>4% = 1 MON</p>
-          <p>25% = 0.25 MON</p>
+          <p>20% = 0.25 MON</p>
           <p>75% = 0.10 MON</p>
         </div>
       </main>
