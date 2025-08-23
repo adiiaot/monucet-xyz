@@ -16,7 +16,7 @@ export class Limiter {
 
     if (idTime === undefined && addressTime === undefined) {
       this.#idsToTime.set(id, now)
-      this.#idsToTime.set(address, now)
+      this.#addressesToTime.set(address, now)
       return 0
     }
 
