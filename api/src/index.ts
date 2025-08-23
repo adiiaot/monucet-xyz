@@ -35,7 +35,7 @@ const api = new Elysia()
 
       await revokeToken(env.clientId, env.clientSecret, token)
 
-      const hours = limiter.isSendable(member.id)
+      const hours = limiter.isSendable(member.id, state)
 
       if (hours !== 0) return redirect(env.siteUri + `?error=Wait for ${hours} hours!`)
 
@@ -57,4 +57,4 @@ const api = new Elysia()
 
 export type Api = typeof api
 
-console.log(`🚰 Monucet is running at ${api.server?.hostname}:${api.server?.port}`)
+console.log(`🚰 Monucet V2 is running at ${api.server?.hostname}:${api.server?.port}`)
