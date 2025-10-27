@@ -1,6 +1,6 @@
 # Monucet
 
-> Monucet is a [Monad](https://monad.xyz/) Testnet faucet with dynamic pay by [Berzan](https://x.com/berzanorg).
+> Monucet is a [Monad](https://monad.xyz/) Testnet faucet utilizing dynamic pay, created by [Berzan](https://x.com/berzanorg).
 
 ![https://monucet.xyz](/site/app/opengraph-image.png)
 
